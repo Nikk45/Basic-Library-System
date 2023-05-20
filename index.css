@@ -1,0 +1,132 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 5rem;
+}
+/* Navigation bar */
+header {
+  background-color: rgb(2, 2, 2);
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+
+.navbar {
+  height: 60px;
+  margin: 0px 10%;
+  padding: 15px 0px;
+  color: rgb(243, 237, 237);
+}
+
+ul li {
+  display: flex;
+  float: left;
+  list-style: none;
+  color: white;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+#logo {
+  font-size: 25px;
+  margin-right: 60%;
+}
+li a:hover {
+  color: rgb(125, 179, 234);
+}
+
+.items {
+  padding: 2px 5px;
+  margin: 3px 4px;
+}
+
+/* table section */
+
+main {
+  background-color: rgb(227, 226, 226);
+  padding: 2% 0%;
+  margin-top: 4%;
+}
+
+.table-section {
+  background-color: rgb(253, 254, 254);
+  width: 60%;
+  margin: 0% 20%;
+  border: 1px solid rgb(123, 121, 121);
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.table {
+  border-radius: 4px;
+  width: 100%;
+  margin: 2% 0% 0%;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(204, 202, 202);
+  border-spacing: 0px;
+}
+
+.nested-table {
+  width: 100%;
+  margin-top: 8px;
+}
+th {
+  padding: 10px 10px;
+}
+td {
+  padding: 10px 10px;
+}
+
+/*register form  */
+.register-section {
+  background-color: rgb(253, 254, 254);
+  width: 60%;
+  margin: 2% 20%;
+  border: 1px solid rgb(123, 121, 121);
+  border-radius: 5px;
+  padding: 2%;
+}
+
+form {
+  margin: 2% 0%;
+}
+
+label {
+  font-size: large;
+  font-weight: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 18px;
+  margin: 8px 0px;
+}
+
+input:focus {
+  background-color: rgb(212, 245, 245);
+}
+input:hover {
+  background-color: rgb(217, 243, 243);
+  border-radius: 4px;
+  border: 2px solid rgb(101, 99, 99);
+}
+
+button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: medium;
+  border-radius: 4px;
+}
